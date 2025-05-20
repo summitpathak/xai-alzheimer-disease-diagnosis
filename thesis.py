@@ -10,7 +10,7 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/mydrive')
 
-path='/content/mydrive/My Drive/Thesis/oasis_longitudinal.csv'
+path='/oasis_longitudinal.csv'
 import pandas as pd
 
 data= pd.read_csv(path)
